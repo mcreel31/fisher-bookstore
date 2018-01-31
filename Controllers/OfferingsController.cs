@@ -14,7 +14,7 @@ namespace Fisher.Bookstore.Controllers
 
         public IActionResult Products()
         {
-            return Content("this is the products page");
+            return View();
         }
 
         [Route("Services")]
@@ -22,7 +22,7 @@ namespace Fisher.Bookstore.Controllers
 
         public IActionResult Services()
         {
-            return Content("this is the services page");
+            return View();
         }
     }
 }
